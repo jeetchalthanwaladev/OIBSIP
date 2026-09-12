@@ -1,25 +1,26 @@
-# 🎨 Task 1 — KAGE//STREET Landing Page
+# 💼 Task 2 — Personal Portfolio
 
 ## 📌 Project Overview
 
-KAGE//STREET is a modern fictional streetwear/anime-inspired landing page created to practice HTML and CSS.
+The Personal Portfolio project is designed as a digital resume and personal introduction website.
 
-The project focuses mainly on visual design, responsive layouts, navigation, sections, cards, buttons, and modern UI styling.
+It presents my skills, projects, experience, interests, and contact information in a professional web interface.
 
 ### Main Features
 
-- Sticky navigation bar
-- Hero section
-- Call-to-action buttons
-- Product/collection section
-- Lookbook section
-- Feature section
-- Design voting section
-- Newsletter section
-- Footer
-- Responsive layout
-- Modern dark/neon visual design
-- Hover effects and UI interactions using CSS
+- Personal hero section
+- Developer introduction
+- Profile/avatar area
+- About Me section
+- Skills section
+- Project cards
+- GitHub and Live Demo placeholders
+- Contact section
+- Contact form
+- Social media links
+- Smooth scrolling navigation
+- Responsive design
+- Professional dark theme
 
 ### Technologies Used
 
@@ -27,42 +28,43 @@ The project focuses mainly on visual design, responsive layouts, navigation, sec
 - CSS3
 - Flexbox
 - CSS Grid
-- Responsive Media Queries
+- Responsive Design
+- CSS animations and transitions
 
 ### What I Learned
 
 Through this project I learned:
 
-- How to structure a complete HTML5 website.
-- How semantic HTML improves website organization.
-- How to create navigation sections.
-- How to create attractive hero sections.
-- How to use Flexbox for layouts.
-- How to use CSS Grid for cards and galleries.
-- How to create responsive layouts using media queries.
-- How to maintain a consistent color palette.
-- How to create hover effects using CSS.
-- How to improve typography and spacing.
-- How to design a website without JavaScript.
+- How to create a professional portfolio structure.
+- How to organize personal information on a website.
+- How to create reusable card layouts.
+- How to create responsive navigation.
+- How to design a professional hero section.
+- How to display skills using grid layouts.
+- How to present projects professionally.
+- How to create responsive contact forms.
+- How to maintain consistent branding throughout a website.
+- How smooth scrolling improves navigation experience.
 
 ### Challenges Faced
 
-While developing this project, some of the main challenges were:
+The main challenges included:
 
-- Maintaining consistent spacing between different sections.
-- Making the design responsive for smaller screens.
-- Creating a visually attractive layout using only HTML and CSS.
-- Preventing content from overlapping on different screen sizes.
-- Choosing suitable colors, typography, and spacing.
-- Making multiple sections look like part of the same design system.
+- Creating a professional design instead of a basic HTML page.
+- Organizing a large amount of information without making the page confusing.
+- Making the portfolio responsive.
+- Maintaining consistent spacing and typography.
+- Designing project cards that look attractive and informative.
+- Creating a layout that works on both desktop and mobile devices.
 
 ### How I Solved Them
 
-I solved these problems by:
+I used:
 
-- Using Flexbox and CSS Grid instead of fixed positioning wherever possible.
-- Adding responsive media queries.
-- Using relative units and flexible widths.
-- Testing the page at different screen sizes.
-- Maintaining reusable CSS patterns.
-- Using a consistent color and typography system.
+- CSS Grid and Flexbox.
+- Responsive media queries.
+- Consistent spacing and typography.
+- Reusable CSS classes.
+- Clear section hierarchy.
+- Responsive sizing using flexible units.
+- Hover and transition effects to improve the user experience.
