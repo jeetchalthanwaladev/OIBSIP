@@ -1,0 +1,337 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="TempX - A simple and accurate temperature converter."
+    >
+
+    <title>TempX | Temperature Converter</title>
+
+
+    <!-- Google Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- CSS -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <main class="page">
+
+
+        <section class="converter-card">
+
+
+            <header class="converter-header">
+
+                <div class="logo">
+                    TEMP<span>X</span>
+                </div>
+
+                <p class="tagline">
+                    Simple. Fast. Accurate.
+                </p>
+
+            </header>
+
+
+
+            <div class="intro">
+
+                <p class="eyebrow">
+                    TEMPERATURE TOOL
+                </p>
+
+                <h1>
+                    Convert
+                    <span>Temperature.</span>
+                </h1>
+
+                <p>
+                    Convert between Celsius, Fahrenheit,
+                    and Kelvin instantly.
+                </p>
+
+            </div>
+
+
+
+            <form
+                id="temperatureForm"
+                class="converter-form"
+            >
+
+
+                <div class="form-group">
+
+                    <label for="temperature">
+                        Temperature
+                    </label>
+
+                    <input
+                        type="number"
+                        id="temperature"
+                        name="temperature"
+                        placeholder="Enter temperature"
+                        step="any"
+                        autocomplete="off"
+                    >
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="inputUnit">
+                        Input Unit
+                    </label>
+
+                    <select
+                        id="inputUnit"
+                        name="inputUnit"
+                    >
+
+                        <option value="celsius">
+                            Celsius (°C)
+                        </option>
+
+                        <option value="fahrenheit">
+                            Fahrenheit (°F)
+                        </option>
+
+                        <option value="kelvin">
+                            Kelvin (K)
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+
+                <div
+                    id="errorMessage"
+                    class="error-message"
+                    role="alert"
+                    aria-live="polite"
+                >
+                </div>
+
+
+
+                <button
+                    type="submit"
+                    id="convertButton"
+                    class="convert-button"
+                >
+                    Convert Temperature
+                    <span>→</span>
+                </button>
+
+            </form>
+
+
+
+            <section
+                id="results"
+                class="results"
+                aria-live="polite"
+            >
+
+                <div class="results-header">
+
+                    <p class="eyebrow">
+                        CONVERSION RESULTS
+                    </p>
+
+                    <p id="resultSummary">
+                        Enter a temperature to begin.
+                    </p>
+
+                </div>
+
+
+
+                <div class="result-grid">
+
+
+                    <article
+                        id="celsiusResult"
+                        class="result-card"
+                    >
+
+                        <div class="result-icon">
+                            °C
+                        </div>
+
+                        <div>
+
+                            <p>
+                                Celsius
+                            </p>
+
+                            <h2>
+                                <span class="result-value">
+                                    —
+                                </span>
+
+                                <small>
+                                    °C
+                                </small>
+                            </h2>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <article
+                        id="fahrenheitResult"
+                        class="result-card"
+                    >
+
+                        <div class="result-icon">
+                            °F
+                        </div>
+
+                        <div>
+
+                            <p>
+                                Fahrenheit
+                            </p>
+
+                            <h2>
+                                <span class="result-value">
+                                    —
+                                </span>
+
+                                <small>
+                                    °F
+                                </small>
+                            </h2>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <article
+                        id="kelvinResult"
+                        class="result-card"
+                    >
+
+                        <div class="result-icon">
+                            K
+                        </div>
+
+                        <div>
+
+                            <p>
+                                Kelvin
+                            </p>
+
+                            <h2>
+                                <span class="result-value">
+                                    —
+                                </span>
+
+                                <small>
+                                    K
+                                </small>
+                            </h2>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+
+
+            <section class="formula-section">
+
+                <p class="formula-title">
+                    Conversion formulas
+                </p>
+
+
+                <div class="formulas">
+
+                    <span>
+                        °F = (°C × 9/5) + 32
+                    </span>
+
+                    <span>
+                        °C = (°F − 32) × 5/9
+                    </span>
+
+                    <span>
+                        K = °C + 273.15
+                    </span>
+
+                </div>
+
+            </section>
+
+
+
+            <footer class="converter-footer">
+
+                <p>
+                    Built with HTML, CSS & JavaScript
+                </p>
+
+                <p>
+                    © 2026 TempX
+                </p>
+
+            </footer>
+
+        </section>
+
+    </main>
+
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	align-items: center;
+	background:
+		radial-gradient(circle at 15% 20%, rgba(120, 191, 255, 0.22), transparent 32%),
+		radial-gradient(circle at 85% 80%, rgba(168, 133, 255, 0.2), transparent 30%),
+		#101827;
+	color: #f5f7fb;
+	display: flex;
+	font-family: Arial, sans-serif;
+	justify-content: center;
+	line-height: 1.6;
+	min-height: 100vh;
+}
+
+.profile {
+	background: rgba(255, 255, 255, 0.1);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 18px;
+	box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
+	margin: 24px;
+	max-width: 620px;
+	padding: 42px 48px;
+	width: min(100% - 48px, 620px);
+}
+
+.profile p {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+	font-size: clamp(1rem, 2vw, 1.15rem);
+	padding: 12px 0;
+}
+
+.profile p:last-child {
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+
+@media (max-width: 520px) {
+	.profile {
+		padding: 28px 24px;
+	}
+}
