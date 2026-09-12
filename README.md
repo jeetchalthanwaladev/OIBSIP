@@ -10,7 +10,7 @@ The main purpose of this repository is to document my practical learning journey
 
 ## 👨‍💻 About Me
 
-**Name:** JC  
+**Name:** Jeet Chalthanwala  
 **Track:** Web Development & Designing  
 **Internship:** Oasis Infobyte  
 **Repository:** OIBSIP
